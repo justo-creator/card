@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "sora", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.main-container {
+    border-radius: 4px;
+  box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+  width: 380px;
+ 
+}
+
+
+figcaption a{
+    background: #F2EAFD;
+    color: #7C19EE;
+    border-radius: 19px;
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+figcaption{
+    padding: 20px;
+}
+.main-container figcaption h3 {
+   color: #20293A;
+   font-weight: bold;
+  
+}
+
+.main-container p{
+    color: #394150;
+    opacity: .7;
+}
+
+.main-container hr{
+    opacity: .4;
+    margin: 10px;
+}
+
+.main-container img{
+    border-radius: inherit;
+    border-radius: 4px;
+    margin-right: 20px;
+    width: 100%;
+   
+}
